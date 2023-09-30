@@ -1,0 +1,53 @@
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+div {
+  background-color: red;
+}
+
+img {
+  border: 1px solid #00ff00;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+.button-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.button-container button {
+  background: blue;
+  color: white;
+}
+
+.button-container button:hover {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
